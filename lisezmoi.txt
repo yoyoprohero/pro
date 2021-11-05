@@ -1,0 +1,10 @@
+Projet crée par Yordan Kostov
+Le thème choisi est: Les languages de programmations
+
+Sélécteurs CSS:
+
+body: Il permet de séléctioner la page
+html: Il séléctionne le HTML de la page
+.exemple: Il séléctionne tout les éléments qui ont pour classe:"exemple"
+#exemple: Il séléctionne l'éléments qui a pour id:"exemple"
+::-webkit-scrollbar: Il séléctionne la barre de défilement

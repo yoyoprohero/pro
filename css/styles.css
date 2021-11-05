@@ -1,0 +1,284 @@
+@font-face {
+    font-family: 'Comic';
+    src: url('Comic.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'Consola';
+    src: url('consola.ttf')  format('truetype');
+}
+
+body {
+    /*background-color: rgb(235, 210, 178) !important;*/
+    background-color: white !important;
+}
+
+html, body {
+    max-width: 100%;
+}
+
+.main {
+    display: inline-block;
+    position: relative !important;
+    margin-left: 7px;
+}
+
+.header {
+    position: relative;
+    top: 3.75rem;
+    margin-bottom: 6%;
+    font-family: "Consolas", "Verdana",  sans-serif !important;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navbar {
+    width: 100% !important;
+    position: fixed !important;
+    background-color: #9828e2 !important;
+    z-index: 2;
+}
+
+.overview {
+    font-size: 18px;
+    font-family: "Consolas", "Consola", "Comic", sans-serif !important;
+}
+
+.card {
+    padding: 3px !important;
+    border-radius: 13px !important;
+    background: #ffffff !important;
+    width: 45% !important;
+}
+
+.card-body {
+    background-color:#001aff;
+    font-family: "Comic", "Consolas", "Consola", -apple-system, sans-serif, !important;
+}
+
+.cpp-card {
+    position: relative;
+    display: inline-flex;
+    float: left;
+    bottom: 20px;
+}
+
+.cpp-title {
+    position: relative;
+    bottom: 35px;
+}
+
+.card-title, .card-text {
+    color: white
+}
+
+.popover-one{
+    position: relative;
+    width: 75px !important;
+    height: 40px !important;
+}
+
+.more-info {
+    position: absolute;
+    left: 27rem;
+    background-color: rgb(0, 195, 255) !important;
+}
+
+.description {
+    font-size: 16px !important;
+    position: relative;
+    bottom: 7px;
+    right: 12px;
+    padding-left: 3px;
+}
+
+.logo {
+    position: relative;
+    top: 5px;
+    right: 2px;
+    border-radius: 30% 10%;
+    margin-right: 3px;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.text {
+    position: relative;
+    left: 3px;
+    font-family: "Consolas", "Consola", "Comic", -apple-system, sans-serif !important;
+    color: #111d5e;
+}
+
+#js, #py, #java, #cpp, #swift, #cs {
+    font-weight: bold;
+}
+
+.mb-2 {
+    border-radius: 30% 10%;
+    position: relative;
+    left: 5px;
+    display: inline-block;
+    width: 50%;
+}
+
+.footer {
+    width: auto !important;
+    padding: 0 15px !important;
+    position: relative;
+    top: 50px;
+    /* border-top: 2px solid gray; */
+}
+
+#creator {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.sub-titles {
+    margin-top: 1%;
+}
+
+#copyright {
+    font-size: 11px;
+    font-weight: bolder;
+    color: grey;
+}
+
+.big-copyright {
+    font-weight: bolder;
+    color: purple;
+}
+
+.float {
+    float: left;
+}
+
+.top-text {
+    position: relative;
+    left: 3rem;
+}
+
+.explain {
+    position: relative;
+    left: 3rem;
+    font-family: "Consolas", "Consola", "Comic", sans-serif !important;
+}
+
+.what-is {
+    color: #111d5e;
+}
+
+.page {
+    position: relative;
+    margin-top: -1%;
+    margin-bottom: 0;
+}
+
+.mid-text {
+    position: relative;
+    float: left;
+}
+
+.who-created {
+    position: absolute;
+    color: #111d5e;
+    margin-bottom: 0;
+    margin-top: 7%;
+    left: 1%;
+}
+
+.explain-creator {
+    position: relative;
+    top: 10px;
+    float: left;
+    clear: both;
+}
+
+.computer {
+    position: relative;
+    left: 8%;
+}
+
+.what-can-you-do {
+    position: absolute;
+    /* top: -10px;
+    left: 50rem;
+    z-index: 3; */
+    right: -16.875rem;
+    top: -3.125rem;
+}
+
+.what-do {
+    float: left;
+    clear: both;
+    position: absolute;
+    bottom: -37.5rem;
+    color: #111d5e;
+    left: 1%;
+}
+
+.my-table {
+    position: relative;
+    top: -12.5rem;
+    left: 20rem;
+    background-color: white !important;
+}
+
+.projects {
+    text-align: center;
+}
+
+.data-analysis {
+    position: relative;
+    top: 1rem;
+}
+
+.footer-py {
+    position: absolute;
+    bottom: -46.875rem;
+    width: 100% !important;
+    padding: 0 15px !important;
+}
+
+.python-card {
+    display: inline-flex;
+    float: left;
+    height: auto !important;
+}
+
+.java-card {
+    display: inline-flex;
+    position: relative;
+    left: 4.375rem;
+    bottom: 4.8125rem;
+    height: auto !important;
+}
+
+.java-big-title {
+    position: relative;
+    bottom: 75px;
+    left: 74px;
+}
+
+.big-img {
+    position: relative;
+    bottom: 60px;
+    left: 80px;
+}
+
+.footer-titles {
+    color: #00af91;
+    font-weight: bold;
+}
+
+.links {
+    text-decoration: none !important;
+    color: burlywood;
+    font-weight: bold;
+}
+
+.links:hover {
+    color: black;
+}
